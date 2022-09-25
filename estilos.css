@@ -21,6 +21,14 @@
     font-family: 'Codystar';
     src: url(fonts/Codystar/Codystar-Regular.ttf);
 }
+@font-face {
+    font-family: 'Neon';
+    src: url(fonts/neon/Neon.ttf);
+}
+@font-face {
+    font-family: 'Cube';
+    src: url(fonts/cube/Cube.ttf);
+}
 
 *{
     margin: 0;
@@ -112,8 +120,11 @@ html{
 }
 
 .timeline ul li h3{
-    font-weight: 600;
     color: var(--color-primario);
+    font-family: 'Cube';
+    text-transform: uppercase;
+    font-size: 15px;
+    color: var(--color-secundario);
 }
 
 .timeline ul li p{
