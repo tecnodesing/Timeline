@@ -1,0 +1,29 @@
+<script src="https://kit.fontawesome.com/c55325d833.js" crossorigin="anonymous"></script>
+    
+        :root{
+            --color-primario:#13a8fe;
+            --color-primario-oscuro:#0371b0;
+            --color-secundario: #ff00ff;
+            --color-terciario: #ffa300;
+            --color-fondo: #000045;
+            --color-blanco: #fff;
+            --color-negro: #000;
+            --color-gris-oscuro: #414141;            
+        }
+
+        @font-face {
+            font-family: 'MuseoModerno';
+            src: url(fonts/MuseoModerno/MuseoModerno-VariableFont_wght.ttf);
+        }
+        @font-face {
+            font-family: 'Codystar';
+            src: url(fonts/Codystar/Codystar-Regular.ttf);
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'MuseoModerno';
+        }
+    
